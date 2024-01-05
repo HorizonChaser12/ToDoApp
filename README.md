@@ -1,5 +1,5 @@
-# todo_app
-This is a simple To-Do App made using Flutter. Has the same basic funcionalities like adding tasks,deleting tasks and some booth visual transitions for deleting. This is a basic project that I have used to upgrade my understanding in Flutter. Will make it visually more beautiful and add other useful things in the near future.
+# To-Do App
+This is a simple To-Do App made using Flutter. It has the basic functionalities, such as adding tasks, deleting tasks, and some smooth visual transitions for task deletion. This project served as a foundation to enhance my understanding of Flutter. I plan to make it visually more appealing and incorporate additional features in the near future.
 
 # Here is a visual of the app I have made:
 
