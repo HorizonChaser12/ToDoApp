@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:todo_app/util/my_button.dart';
 
 class DialogBox extends StatelessWidget {
+  // ignore: prefer_typing_uninitialized_variables
   final controller;
   final VoidCallback onSave;
   final VoidCallback onCancel;
 
-  DialogBox(
+  const DialogBox(
       {super.key,
       required this.controller,
       required this.onSave,
@@ -16,7 +17,7 @@ class DialogBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return AlertDialog(
       backgroundColor: Colors.pink.shade100,
-      content: Container(
+      content: SizedBox(
         height: 150,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
